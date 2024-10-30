@@ -1,0 +1,15 @@
+# Read three floating point inputs
+A = float(input())
+B = float(input())
+C = float(input())
+
+# Define the weights
+weight_A = 2
+weight_B = 3
+weight_C = 5
+
+# Calculate the weighted average
+MEDIA = (A * weight_A + B * weight_B + C * weight_C) / (weight_A + weight_B + weight_C)
+
+# Print the result in the required format
+print(f"MEDIA = {MEDIA:.1f}")
