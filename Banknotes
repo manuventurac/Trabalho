@@ -1,0 +1,13 @@
+N = int(input())
+
+banknotes = [100, 50, 20, 10, 5, 2, 1]
+
+print(N)
+
+banknote_count = []
+for note in banknotes:
+    count = N // note 
+    banknote_count.append(count)  # Store the count
+    N %= note  # Update N to the remaining amount
+for i in range(len(banknotes)):
+    print(f"{banknote_count[i]} nota(s) de R$ {banknotes[i]},00")
