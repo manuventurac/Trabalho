@@ -1,0 +1,5 @@
+D = int(input())
+
+time_minutes = 2 * D
+
+print(f"{time_minutes} minutos")
