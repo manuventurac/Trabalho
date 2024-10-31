@@ -1,0 +1,4 @@
+A, B, C = map(int, input().split())
+
+greatest = max(A, B, C)
+print(f"{greatest} eh o maior")
