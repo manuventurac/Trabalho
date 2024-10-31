@@ -1,0 +1,12 @@
+product1 = input().split()
+code1 = int(product1[0])
+units1 = int(product1[1])
+price1 = float(product1[2])
+product2 = input().split()
+code2 = int(product2[0])
+units2 = int(product2[1])
+price2 = float(product2[2])
+
+total_amount = (units1 * price1) + (units2 * price2)
+
+print(f"VALOR A PAGAR: R$ {total_amount:.2f}")
