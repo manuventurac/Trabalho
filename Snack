@@ -1,0 +1,20 @@
+def main():
+     price_table = {
+        1: 4.00,  # Product code 1
+        2: 4.50,  # Product code 2
+        3: 5.00,  # Product code 3
+        4: 2.00,  # Product code 4
+        5: 1.50   # Product code 5
+    }
+
+x, y = map(int, input().strip().split())
+
+    
+    if x in price_table:
+        total_value = price_table[x] * y
+        print(f"Total: R$ {total_value:.2f}")
+    else:
+        print("Invalid product code")
+
+if __name__ == "__main__":
+    main()
